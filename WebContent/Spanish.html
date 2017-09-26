@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a class="active" href="#home">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Español!</button>
+		<div class="panel">
+			<div class="spanish">
+				<p>This is my page for Spanish, which is taught by Señora
+					Wildfong.</p>
+
+				<br>
+				<HR COLOR="black" WIDTH="60%">
+
+				<br>
+				<p>The advanced Spanish group was tasked to write a short story
+					about their childhood in Spanish and record themselves. I would
+					explain my short story, but it is a little embarrassing. I'll leave
+					for you and a translator to figure out.</p>
+
+				<div class="p2">Cuento de Niñez Audio</div>
+				<br>
+				<audio controls>
+					<source src="audio/cuento.wav" type="audio/wav">
+				</audio>
+
+				<br>
+				<HR COLOR="black" WIDTH="60%">
+
+				<p>Pronunciation and building of vocabulary are vital in
+					learning a language. There is no better way to comprehend a
+					language better than reading a newspaper article in the target
+					language. The article is about the decrease in population of bees
+					and its repurcussions on the environment. Be my guest to listen to
+					this file.</p>
+
+				<div class="p2">Articulo de Las Abejas</div>
+				<br>
+				<audio controls>
+					<source src="audio/abejas.wav" type="audio/wav">
+				</audio>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+	<div class="bg1"></div>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a class="active" href="#home">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Extracurriculars</button>
+		<div class="panel">
+			<div class="about">
+				<p>
+					My extracurricular activities at my sending school were very
+					varied. I was part of many different clubs, including Chelmsford
+					Symphony Orchestra, Model UN, Class Representatives, Science Team,
+					and Melting Pot (Cultural Club). I was able to receive the Rookie
+					of the Year award in Environmental Council at the Model UN held at
+					UMASS Lowell last year. That was such a wonderful experience,
+					seeing as sophomore year was my first year of joining Model UN.
+					Another acheivement of mine was being a member of the Symphony
+					Board. I loved having a leadership position because it gave me a
+					sense of responsibility. It was really fun for me to become
+					involved in so many clubs because I felt closer and more aware of
+					my school and my community, and I loved spending more time with my
+					friends. <br> <br>In addition to afterschool clubs, I
+					participated on the <a href="http://www.stormgears.org/"
+						target="_blank">FRC team 5422 Stormgears</a> located in Westford,
+					MA. Being a part of this team was one of the most amazing
+					experiences of my life because my interest in robotics started
+					here. I learned so many skills being a part of the electrical team,
+					especially patience and resilience. Last year, 5422 qualified to
+					compete in the World Championships, which was held at St. Louis.
+					Being exposed to different ideas and strategies, as well as other
+					teams helped me understand more about robotics than I would have
+					ever imagined. <br> <br>This year at MAMS, I joined the
+					Mock Trial Team, VEX Robotics, and Model UN. <br> <br>This
+					is my first year doing Mock Trial because my previous school did
+					not offer this extracurricular. It is such a wonderful experience
+					because I really got to understand how our justice system works
+					just by being in the position of a lawyer. My position in the team
+					is Direct Examiner of one of the witnesses in a murder case. <br>
+					<br>As I mentioned previously, I joined the Vex Robotics
+					extracurricular, where (surprise) we build Vex Robots. These are
+					medium sized robots that require just as much skill set as working
+					with an FRC robot. Sadly, I do not have time to join Mass Academy's
+					FRC Team 190, but if I did have time, I definitely would. <br>
+					<br>Model UN at Mass Academy is pretty interesting, although I
+					have to admit, I was not able to attend many of the meetings due to
+					Mock Trial and other conflicts. The meetings focused on current
+					events as well as resolutions to many of these topics. Because I
+					was in Model UN at my sending school, I was able to talk with ease
+					in my council when the MAMS team went to the Mock Model UN held at
+					St. John's High School.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="imageabout">
+		<button class="accordion">Volunteering</button>
+		<div class="panel">
+			<div class="about">
+				<p>
+					Mass Academy students have to fulfill a requirement of minimum 100
+					hours of community service; 50 in junior year, 50 in senior year. <br>
+					<br> <br> Over the summer, I will be volunteering at a
+					program named Intellect Quest. IQ is a place for students from
+					grades 5-8 to acquire hands on experience with different workshops,
+					which vary from robotics to music and non-STEM related subjects.
+					They are geared towards any student who has a quench for knowledge.
+					These workshops run from 8:30 am - 3:30 pm. <br> <br> If
+					you have any interest or further questions about IQ, please feel
+					free to contact me!
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu!</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+	<div class="bg1"></div>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a class="active" href="#home">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Computer Science!</button>
+		<div class="panel">
+			<div class="cs">
+				<p>This is my page for CS which is taught by Ms. Taricco. So
+					far, we've been working on our websites learning Java, HTML, and
+					CSS, which are different types of programming languages. HTML and
+					CSS is used for web designing, which I used to create this web
+					page.</p>
+
+				<br>
+				<hr COLOR="black" WIDTH="60%">
+				<br>
+
+				<p> Our final CS project is called Apps for Good, 
+				where groups of three to four people create an app from scratch that is designed to solve an issue in society. 
+				Veronika Enis, Yuxiang Mao, and I created an app that can provide the user with the nutrient composition of each vegetable 
+				as well as a list of the top ten vegetables that has the highest correlating nutrient. 
+				<br><br>Click on the photo to see our presentation poster!
+				<br><br>If you want more information about the app, please feel free to contact me or my group members.<br><br> 
+				<p>
+				
+				 <br> <a href="pdf/AppPoster.pdf" target="_blank"><img
+						title="Link to PDF" src="images/AppFair.JPG" alt=""
+						style="width: 70%" /></a>
+				
+				<br>
+				<hr COLOR="black" WIDTH="60%">
+				<br>
+				<p>
+					So far, we've been working on the programming language Java. Here
+					are few of many programs I have coded using Java:<br>
+					<br>
+				<p>
+					Spikey is the first program I ever created using Java.<br> <br></p>
+					<div class="p2">Spikey</div>
+					<br> <a href="pdf/Spikey.pdf" target="_blank"><img
+						title="Link to PDF" src="images/Spikey.JPG" alt=""
+						style="width: 40%" /></a>
+				
+				<hr COLOR="black" WIDTH="60%">
+				<p>
+					Sieve of Eratosthenes is a program that outputs all the prime
+					numbers until it reaches the upper bound.<br> <br></p>
+					<div class="p2">Sieve of Eratosthenes</div>
+					<br> <a href="pdf/Sieve.pdf" target="_blank"><img
+						title="Link to PDF" src="images/sieve.JPG" alt=""
+						style="width: 70%" /></a>
+						
+						
+				<hr COLOR="black" WIDTH="60%">
+				<p>
+					Latin Squares is another Java program I coded that outputs a "n x
+					n" square with ascending numbers until n.<br> <br></p>
+					<div class="p2">Latin Squares</div>
+					<br> <a href="pdf/LatinSquare.pdf" target="_blank"><img
+						title="Link to PDF" src="images/latinsquares.JPG" alt=""
+						style="width: 50%" /></a>
+				
+				<hr COLOR="black" WIDTH="60%">
+				<p>
+					Line Art is a Java program that uses the Java applet program.
+					Applet uses small, interactive components that can be used on a web
+					page.<br> <br></p>
+					<div class="p2">Line Art</div>
+					<br> <a href="pdf/LineArt.pdf" target="_blank"><img
+						title="Link to PDF" src="images/LineArt.JPG" alt=""
+						style="width: 50%" /></a>
+				
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu!</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+</body>
+</html>

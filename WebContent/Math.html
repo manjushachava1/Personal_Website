@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a class="active" href="#home">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Math!</button>
+		<div class="panel">
+			<div class="math">
+				<p>
+					This is my page for Math, which is taught by Mr. Regele.<br>
+					The type of math we do varies from traditional high schools; We do
+					math modeling, which is applicable in real life scenarios. <br>
+					<br>
+				<hr COLOR="black" WIDTH="60%">
+
+				<br>
+				<p>
+					One of the most memorable and enjoyable event we participated in
+					was the HiMCM challenge; a 36 hour math competition. Each team
+					consisted of 3 or 4 people and a whole day and a half would be
+					dedicated to solving one math modeling problem. Out of the two
+					choices of questions, my team chose <a href="pdf/HiMCMProblem.pdf"
+						target="_blank">Problem 2.</a> We chose this because we were
+					interested in simulating similar methods akin to what a postal
+					service would experience when having to decide shipping routes and
+					coverage.
+				</p>
+				<br>
+
+				<div class="p2">Solution to HiMCM Problem</div>
+				<br> <a href="pdf/HiMCMPaper.pdf" target="_blank"><img
+					title="Link to PDF" src="images/HiMCMProblem.JPG" alt=""
+					style="width: 50%" /></a> <br> <br>
+				<hr COLOR="black" WIDTH="60%">
+
+				<br>
+				<p>
+					Another math modeling problem involving collaboration with others
+					is the Paint Gallery Problem. Our goal was to mathematically
+					conclude which of two configurations of surveillance cameras was
+					most functional in covering the most paintings at once. We also had
+					to design our most optimal positioning of surveillance cameras that
+					would cover the most art in the gallery.<br> <br>
+				<div class="p2">The Paint Gallery Conundrum</div>
+				<br> <a href="pdf/PaintGallery.pdf" target="_blank"><img
+					title="Link to PDF" src="images/PaintGallery.JPG" alt=""
+					style="width: 60%" /></a>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu</p>
+	</div>
+
+	<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+	
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function() {
+					this.classList.toggle("active");
+					this.nextElementSibling.classList.toggle("show");
+				}
+			}
+		</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a class="active" href="#home">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">STW!</button>
+		<div class="panel">
+			<div class="stw">
+				<p>This is my page for Science and Technical Writing and is
+					taught by Ms. Curran, who also teaches STEM.</p>
+
+				<br>
+				<HR COLOR="black" WIDTH="60%">
+				<br>
+
+				<p>One of the assignments we were given in STW was to write a
+					Journal article on a topic relating to our STEM projects. My
+					journal article concerned the use of solar panels on edifices and
+					the ability to implement them anywhere. This was before I decided
+					to change my source of renewable energy from solar to wind.</p>
+				<br>
+				
+				<div class="p2">Journal Article</div>
+				<br> <a href="pdf/CurrentEvent.pdf" target="_blank"><img
+					title="Link to PDF" src="images/CurrentEvent.JPG" alt=""
+					style="width: 50%" /></a>
+
+				<hr>
+				<br>
+
+				<p>In A Term, we wrote a report on an endangered species for an
+					essay contest called Engineer Girl. The topic was to hypothesize a
+					solution that would potentially save our species from possible
+					extinction. I chose the Orangutan because it is my favorite animal
+					and they are close to becoming extinct than ever before.</p>
+				<br> <br>
+
+
+				<div class="p2">Preserving the Orangutans</div>
+				<br> <a href="pdf/Orangutans.pdf" target="_blank"><img
+					title="Link to PDF" src="images/Orangutan.JPG" alt=""
+					style="width: 50%" /></a> <br>
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+</body>
+</html>

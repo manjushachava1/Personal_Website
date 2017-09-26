@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<style>
+.mySlides {
+	display: none;
+}
+
+lif:before {
+	content: "•";
+	padding-right: 8px;
+	color: #800040;
+}
+</style>
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a class="active" href="#home">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+	
+	<br>
+	<div class="p1">Manjusha Chava</div>
+	<br>
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Who I Am</button>
+		<div class="panel">
+			<div class="about">
+				<p>
+					I am a 16 year old Junior at <a href="http://www.massacademy.org/"
+						target="_blank"> Mass Academy of Math and Science</a> and an avid
+					enthusiast of Coldplay, The Flash, and pizza. <br> <br> 
+					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+					<img class="picleft" src="images/brother.JPG" alt="error" style="width: 50%"></a><div class="p5">That's me and my brother.</div><br>
+					<p>I live in Tyngsboro, MA, but because no one knows where
+					that is, it is near Lowell, MA. If you don't know where Lowell is
+					either, then you should probably look it up on 
+					<a href="https://www.google.com/maps" target="_blank">Google Maps</a>.</p>
+					
+					<br>
+				<p>
+					My sending school was <a href="http://www.chelmsford.k12.ma.us/chs"
+						target="_blank">Chelmsford High School</a>, which is located in
+					Chelmsford, MA, a town neighboring Tyngsboro. I loved CHS
+					because of the faculty, the sense of community, and of course, my
+					friends. Leaving Chelmsford High was tough because it meant I would
+					have to start over. Losing not only my friends, but the connections
+					I had with many of my teachers made me feel sad. Being the risk
+					taker I was, I wanted to challenge myself and try something new.<br>
+					<br> The end result was my enrollment into Mass Academy.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="imageabout">
+		<button class="accordion">Photography</button>
+		<div class="panel">
+			<div class="about">
+
+				<p>
+					Ever since I was handed the camera and asked to take family
+					pictures, I have developed a passion for the art of photograph. I
+					have not taken classes, but I learned different tactics and methods
+					for taking captivating eye candy. <br> These are some pictures
+					I took with my Nikon D-3300 camera. Enjoy!
+
+				</p>
+				<div class="w3-content w3-section" style="max-width: 500px">
+					<img class="mySlides" src="images/fallleaves.jpg" alt=""
+						style="width: 100%"> <img class="mySlides"
+						src="images/sunset.JPG" alt="" style="width: 100%"> <img
+						class="mySlides" src="images/animation.gif" alt=""
+						style="width: 100%"><img class="mySlides"
+						src="images/flower.JPG" alt="" style="width: 100%"> <img
+						class="mySlides" src="images/snail.JPG" alt="" style="width: 100%">
+					<img class="mySlides" src="images/flower2.JPG" alt=""
+						style="width: 100%"> <img class="mySlides"
+						src="images/flower3.JPG" alt="" style="width: 100%"> <img
+						class="mySlides" src="images/bug.JPG" alt="" style="width: 100%">
+				</div>
+				<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a> <a
+					class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+
+			</div>
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {
+					slideIndex = 1
+				}
+				if (n < 1) {
+					slideIndex = x.length
+				}
+				;
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex - 1].style.display = "block";
+			}
+		</script>
+	</div>
+
+	<div class="imageabout">
+		<button class="accordion">Music</button>
+		<div class="panel">
+			<div id="foo" class="about">
+				<p>
+					I play three instruments; violin, guitar, and piano. I have been
+					playing the violin since I was in 4th grade and I loved it all my
+					life. I was section leader of the violin section during my time in
+					high school orchestra, as well as 1st seat and sometimes soloist
+					for some of the pieces. I participated in Chelmsford Symphony
+					Orchestra, which was an after school club designed for students
+					with a passion for music to play pieces which were far more
+					advanced compared to the regular orchestra/band music. <br> 
+					
+					<br>Piano
+					was an instrument I had a passion for since I was little. I hadn't
+					delved into it until I was about 11 years old, which was when I got
+					my first keyboard. I took lessons for more than a year and a half
+					before stopping, for the reason that I wasn't able to allocate
+					enough time for practice. Now piano has become a past time for me
+					rather than a primary instrument, but I still love playing it to
+					this day. <br> <br>My interest for guitar acquired from
+					listening to bands like Green Day, and of course, Coldplay. I have
+					always loved the sound of the guitar, but nothing inspired me to
+					learn how to play it more than listening to songs mainly by these
+					two bands. After begging my parents to buy me an acoustic guitar, I
+					taught myself how to play many songs, as well as learn basic guitar
+					chords. I struggle with barre chords, like many of the amateur
+					guitar players, but hopefully I'll master those someday. <br>
+
+					<br>In addition to playing instruments, I also enjoy singing.
+					Whenever I have free time (which is almost never), I like to pick
+					up my guitar and sing any song that matches my mood. Freshman year
+					was the first time I joined an actual Chorus; before that, I had
+					been in Orchestra my entire life. <br><br>The music teachers at
+					CHS encouraged me to join their chorus. Although the Orchestra and
+					Chorus classes ran during the same times of day, I was able to skip
+					Orchestra on certain days to practice with the chorus. Singing with
+					a group of people I admired made me forget my surroundings, and
+					helped me relax greatly. The songs we practiced challenged my
+					vocals and pushed me to practice harder. Unfortunately, I was not
+					able to continue this wonderful experience in my sophomore year due
+					to scheduling conflicts. However, being a part of something
+					extraordinary truly had an impact on my life.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="imageabout">
+		<button class="accordion">Sports</button>
+		<div class="panel">
+			<div class="about">
+				<p>
+					I developed a passion for sports ever since I was a little 'un. My
+					entire family always comes together to watch every Patriots
+					football game, and my brother, dad and I watch the rest of football
+					games. I will admit that I'm not as impressive with my knowledge of
+					NFL players and their statistics as well as my brother or other
+					MAMS students, but I can still place in the top 3 in any Fantasy
+					Football league. My favorite players on the Patriots are Edelman
+					and Gronkowski for not only their matchless performances on the
+					field, but also for their volunteer work for the community. My
+					favorite players in the NFL who are not on the Patriots are A.J
+					Green of the Bengals and Antonio Brown of the Steelers. <br> <br>I've
+					played basketball my entire life up until Freshman year of high
+					school, which was my last year. I was on my school's JV team and it
+					was a challenging experience mentally. In the end, I was able to
+					learn the true meaning of perseverance, as well as team work. <br>
+					<br>During sophomore year of high school, I decided to try out
+					for the tennis team. Prior to playing on my school's JV team, I had
+					2 years of tennis experience. I enjoyed playing tennis for my
+					school, and would have continued if I stayed at my sending school.
+
+					<br> <br> Sports I play for fun include football and
+					badminton. During my freshman year, a friend and I decided to pair
+					up and compete in a school badminton tournament. There, we won
+					first place after defeating many of the upperclassmen. Later on, I
+					competed in another competition and placed 1st in doubles.
+					Badminton is one of my favorite sports to play, and like all the
+					other sports, I become extremely competitive when immersed.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="imageabout">
+		<button class="accordion">T.V Shows</button>
+		<div class="panel">
+			<div class="about">
+				<p>The T.V shows I have watched ever since I was given the
+					independence to watch my own T.V shows include:</p>
+				<ol>
+					<lif>The Flash</lif>
+					<br>
+					<lif>Brooklyn 99 </lif>
+					<br>
+					<lif>Jane the Virgin</lif>
+					<br>
+					<lif>Game of Thrones</lif>
+					<br>
+					<lif>Breaking Bad</lif>
+					<br>
+					<lif>Law and Order: SVU</lif>
+					<br>
+				</ol>
+
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+
+	
+
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+
+</body>
+</html>

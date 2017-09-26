@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">STEM!</button>
+		<div class="panel">
+			<div class="stem">
+				<p>
+					This is my page for STEM, which is taught by Ms. Curran. <br>
+					<br>
+				 <hr COLOR="black" WIDTH="60%">
+
+				<br>
+				<p>
+					The students at MAMS work on STEM projects, which focus on
+					primarily Science, Technology, Engineering, and Math. This
+					powerpoint will give you a short summary about my project. <br>
+					<br> And no, Harvard Yard has nothing to do with my project.<br><br>
+				</p>
+
+
+				<div class="p2">Abstract</div>
+				<br>
+
+				<p>The accumulation of greenhouse gasses, such as carbon
+					dioxide, poses a severe threat to the environment. A typical
+					gasoline vehicle emits about 4.7 metric tons of CO2 per year.
+					Renewable energy, such as wind energy, and an increased usage of
+					electric vehicles (EV) over gasoline cars are imperative in
+					decreasing CO2 emissions in the atmosphere. This project aimed to
+					develop a parking meter that could power eco-friendly EVs using
+					clean wind energy. To be effective, this device would require a
+					level-2 EV charger capable of charging these vehicles in under four
+					hours. A prototype of a Savonius wind turbine was constructed using
+					aluminum sheet and wood. The turbine was fixed to an EV charging
+					station. A 3.6 V battery and electrical connections were attached
+					inside of the station. The prototype was tested using controlled
+					wind conditions to determine the average power output. The results
+					ranged from 0.61 W - 4.63 W and standard deviation was calculated
+					to be between 0.11 - 0.42, demonstrating high precision and
+					efficiency. This apparatus epitomizes multi-functionality by
+					combining a parking meter and an EV charging station to save space
+					and encourage a greater usage of EVs.</p>
+
+				<br> <br>
+				<div class="p2">EV Charging Station/Parking Meter Apparatus
+					Powered by Renewable Energy</div>
+
+				<br> <a href="pdf/STEMpowerpoint.pdf" target="_blank"><img
+					title="Link to PDF" src="images/stemev.JPG" alt=""
+					style="width: 80%" /></a><br>
+				<br>
+
+				<br>
+				<p>In addition to our STEM Project, we also worked on crafting
+					our reports similar to science research papers. A Literature Review
+					is a long report that coalesces background information,
+					experimentation, and other data into one paper. This is the
+					Literature Review for my project.</p>
+
+				<br>
+				<div class="p2">Literature Review</div>
+				<br> <a href="pdf/LiteratureReview.pdf" target="_blank"><img
+					title="Link to PDF" src="images/LiteratureReview.JPG" alt=""
+					style="width: 80%" /></a>
+
+			</div>
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu!</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+
+</body>
+</html>

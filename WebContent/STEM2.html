@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a href="Humanities.html">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">STEM 2!</button>
+		<div class="panel">
+			<div class="stem">
+				<p>
+					This is my page for STEM 2, which is taught by Ms. Johnson.<br>
+					<br> 
+				 <hr COLOR="black" WIDTH="60%"> 
+
+				<br><p>STEM 2 is a class where students design and construct a device for individuals with disabilities. 
+			We go through a very similar engineering process of manufacturing items.</p>
+
+					<p>The prototype, dubbed Evolve 1.0, attempted to provide a wheelchair user with easy accessibility of 
+					their belongings. Generally, wheelchair users utilize bags or under the wheelchair storage mechanisms.
+					However, these devices are not simple to use and require assistance. My group built the Evolve 1.0 in two weeks
+					but the design process was longer. <br><br> The prototype image is shown below.</p>
+					<br> <br>
+					<div class="p2">STEM 2 Prototype </div>
+					
+					<br> <img src="images/Prototype.jpeg" alt=""
+						style="width: 50%" />
+
+			</div>
+		</div>
+	</div>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu!</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+
+</body>
+</html>

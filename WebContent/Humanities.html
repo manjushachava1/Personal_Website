@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Zoooom.</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+	rel="stylesheet">
+</head>
+<body>
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Aboutme.html">About Me</a></li>
+		<li><a href="CS.html">CS</a></li>
+		<li><a href="Extracurriculars.html">Extracurriculars</a></li>
+		<li><a class="active" href="#home">Humanities</a></li>
+		<li><a href="Math.html">Math</a></li>
+		<li><a href="Physics.html">Physics</a></li>
+		<li><a href="Spanish.html">Spanish</a></li>
+		<li><a href="STW.html">STW</a></li>
+		<li class="dropdown"><a href="STEM.html" class="stem">STEM</a>
+			<div class="dropdown-content">
+				<a href="STEM2.html">STEM 2</a>
+			</div></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+
+	<br>
+	<div class="imageabout">
+		<button class="accordion">Humanities!</button>
+		<div class="panel">
+			<div class="humanities">
+				<p>This is my page for Humanities, which is taught by Mr. Ludt.</p>
+				<br>
+				<HR COLOR="black" WIDTH="60%">
+				<br>
+
+				<p>We analyze a variety of ancient literature and text ranging
+					from Ancient Egyptian Love Poems, to the Iliad and The Aeneid.</p>
+
+				<p>One of my favorite topics that we've covered so far was "The
+					Women of Troy," by the Greek author Euripides because it had an
+					interesting and captivating plot. My essay topic regarding "The
+					Iliad" and "The Women of Troy," was about the role of the Greek
+					Gods and how the system of belief of the Gods is flawed in both the
+					works of literature.</p>
+
+				<br> <br>
+				<div class="p2">The Flawed System of Belief in Gods</div>
+				<br> <a href="pdf/FlawedGods.pdf" target="_blank"><img
+					title="Link to PDF" src="images/Iliad.JPG" alt=""
+					style="width: 50%" /></a>
+
+
+				<HR COLOR="black" WIDTH="60%">
+
+				<p>Another one of my essays was about "The Aeneid," which is an
+					epic poem written by the author Virgil. This essay analyzes the
+					uses of nature imagery and how it is used to describe the character
+					traits of the central characters Dido and Aeneas, as well as the
+					complexity and dramatization of the plot.</p>
+				<br> <br>
+				<div class="p2">Importance of Nature Imagery In the Aeneid</div>
+				<br> <a href="pdf/AeneidEssay.pdf" target="_blank"><img
+					title="Link to PDF" src="images/Aeneid.JPG" alt=""
+					style="width: 50%" /></a>
+
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="footer">
+		<p>Contact me at mchava@wpi.edu</p>
+	</div>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function() {
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+	</script>
+</body>
+</html>
